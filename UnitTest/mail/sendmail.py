@@ -9,10 +9,10 @@ def send_mail(sub,content):
     mailto_list=["363612366@qq.com"]
     #####################
 
-    mail_host="mail.iqiyi.com"
-    mail_user="zhangqiang"
-    mail_pass="P@ssw0rd1163"
-    mail_postfix="qiyi.com"
+    mail_host="mail.xxxx.com"
+    mail_user="xxxxxx"
+    mail_pass="#"
+    mail_postfix="xxxx.com"
     ######################
     '''''
     send_mail("aaa@126.com","sub","content")

@@ -5,7 +5,7 @@
 
 import torndb
 
-db = torndb.Connection(host = "10.1.14.165:3306", database= "CloudScanner", user="root", password="zhangqiang")
+db = torndb.Connection(host = "127.0.0.1:3306", database= "CloudScanner", user="root", password="xxxxxx")
 
 sysvul = {}
 sysvul['sid'] = 0
