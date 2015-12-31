@@ -74,16 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DomainAnalysis/plugins/subdomain/config.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bin/controller/controller.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,14 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portscan_plugin_controller.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portscan_plugin_controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bin/controller/portscan_plugin_controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0955882">
+            <state vertical-scroll-proportion="0.0">
               <caret line="95" column="130" selection-start-line="95" selection-start-column="130" selection-end-line="95" selection-end-column="130" />
               <folding>
                 <element signature="e#38#91#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail_config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/mail_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33088234">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../demo/qqlogin/t.js" />
         <option value="$PROJECT_DIR$/../NoEye/NoEye.py" />
         <option value="$PROJECT_DIR$/../demo/qqlogin/unauth_detect.py" />
         <option value="$PROJECT_DIR$/../demo/nginx_format.py" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/Plugins/WebPathScan/webpathscan.py" />
         <option value="$PROJECT_DIR$/Bin/controller/controller.py" />
         <option value="$PROJECT_DIR$/Bin/controller/domain_plugin_controller.py" />
+        <option value="$PROJECT_DIR$/config/mail_config.py" />
       </list>
     </option>
   </component>
@@ -970,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bin/controller/vunlscan_plugin_controller.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1212,11 +1205,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bin/controller/portscan_plugin_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0955882">
+        <state vertical-scroll-proportion="0.0">
           <caret line="95" column="130" selection-start-line="95" selection-start-column="130" selection-end-line="95" selection-end-column="130" />
           <folding>
             <element signature="e#38#91#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33088234">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
