@@ -96,7 +96,7 @@ def get_domain_type(domain):
         format_domain = Domain.url_format(domain)
         root_domain = Domain.get_root_domain(format_domain)
         if root_domain == '':   #这里可以判断为内网域名(这里就不能用接口查询子域名了)
-            if format_domain != domain:  #如果是内网域名，并且为aq.qiyi.domain 那只能算是rootdomain
+            if format_domain != domain:
                 return SCANNER_TYPE[2]
             else:
                 return SCANNER_TYPE[3]
