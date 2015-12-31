@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7.6 (/usr/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spider" />
+    <orderEntry type="module" module-name="fuzsub" />
+    <orderEntry type="module" module-name="Jenkins" />
+    <orderEntry type="module" module-name="Jenkins" />
+    <orderEntry type="module" module-name="demo" />
+    <orderEntry type="module" module-name="NoEye" />
+    <orderEntry type="module" module-name="pyrailgun" />
+  </component>
+</module>

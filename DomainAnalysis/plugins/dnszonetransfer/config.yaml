@@ -1,0 +1,6 @@
+enable: True
+type: ['subdomain', 'intradomain']
+descript: DNS域传送漏洞检测
+plugin_name: dnszonetransfer
+module_name: DnsTransWork
+chinesename: DNS域传送漏洞

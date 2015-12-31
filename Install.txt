@@ -1,0 +1,14 @@
+The necessary library files
+Python2.7.4
+IPy
+BeautifulSoup4
+pyyaml
+python-nmap
+requests
+gevent
+stomp.py-4.0.13
+redis
+MySQLdb
+pymongo
+whatweb
+dnspython

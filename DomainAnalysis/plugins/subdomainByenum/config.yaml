@@ -1,0 +1,6 @@
+enable: True
+type: ['subdomain', 'intradomain']
+descript: 子域名字典枚举
+plugin_name: subdomainByenum
+module_name: SubDomainFindByDit
+chinesename: 子域名枚举

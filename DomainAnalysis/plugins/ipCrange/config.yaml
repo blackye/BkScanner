@@ -1,0 +1,6 @@
+enable: True
+type: ['ipCrange']
+descript: 单个IP C端检测
+plugin_name: ipCrange
+module_name: IpCrange
+chinesename: 单个IP C端检测

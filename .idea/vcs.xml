@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../NoEye" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../poc/JavaUnserializeExploits" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pyrailgun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../subDomainsBrute" vcs="Git" />
+  </component>
+</project>

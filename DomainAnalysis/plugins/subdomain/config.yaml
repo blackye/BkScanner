@@ -1,0 +1,6 @@
+enable: True
+type: ['subdomain']
+descript: 根域名查询
+plugin_name: subdomain
+module_name: SubDomainFindByInterface
+chinesename: 根域名查询

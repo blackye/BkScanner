@@ -1,0 +1,6 @@
+enable: True
+type: ['rootdomain', 'intradomain']
+descript: 单个域名检测
+plugin_name: rootdomain
+module_name: RootDomain
+chinesename: 单个域名检测
