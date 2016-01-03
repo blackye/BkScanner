@@ -26,7 +26,7 @@ class WebPathScanPlugin(PluginBase):
 
     def __init__(self):
         PluginBase.__init__(self)
-        self.threadpool = ThreadPool(num_of_threads= 20 , num_of_work= 10 , daemon = True)
+        self.threadpool = ThreadPool(num_of_threads= 10 , num_of_work= 10 , daemon = True)
 
     def execute_run(self, ip, port, bdomain, taskid):
         if bdomain == DOMAIN_TYPE[0]:

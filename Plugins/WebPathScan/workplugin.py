@@ -22,6 +22,7 @@ if not parent in sys.path:
 from Plugins.pluginManagerBase import DirectoryPluginManager
 from Bin.lib.rediswork.rediswork_class import RedisWork
 from config.redis_config import WEBSCAN_KEY
+from config.logger import logger
 import time
 
 class WebPathPlugin(DirectoryPluginManager):
@@ -41,7 +42,6 @@ def Work():
 
     while True:
         web_json = redis.getvulInfo(WEBSCAN_KEY)
-        print web_json
         if web_json is not None:
             try:
                 webinfo = eval(web_json)
@@ -53,11 +53,14 @@ def Work():
                 print str(e)
                 continue
         else:
+            logger.info('[webscan empty]webpath redis empty!')
             time.sleep(300)
             for webplugin in webplugins:
                 webplugin.wait_for_complete(0, taskid)
             break
+        time.sleep(0.2)
 
+    logger.info('[webscan exit]webscan scan over, exit!')
     #send email webpath scan over!
     sys.exit()
 

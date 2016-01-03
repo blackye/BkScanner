@@ -173,7 +173,7 @@ class WebScan(object):
             try:
                 self.__whatweb() #获取网站指纹
             except Exception,e:
-                print 'error:' % str(e)
+                logger.error('[webscan]error:%s' % str(e))
             return True
         except Exception,e:
             return False
@@ -267,7 +267,7 @@ class WebScan(object):
                     elif link.status_code == 404:
                         #正常情况
                         pass
-                    elif link.status_code == 500:  #网站错误
+                    elif link.status_code >= 500:  #网站错误
                         self.crawler_status.info = False
             else:
                 self.crawler_status.info = False
@@ -311,13 +311,13 @@ class WebScan(object):
             self.__load_scan_dic() #加载扫描字典
             if self.proxy:
                 self.load_proxylist()  #加载代理字典
-            self.__crawler_status() #判断扫描状态（可以继续完善）
+            self.__crawler_status() #判断扫描状态 (可以继续完善）
             if not self.crawler_status.info:
-                print "domain url %s scanner stop" % self.url
+                logger.info("[done]domain url %s scanner stop" % self.url)
                 return None
             return True
         else:
-            print "domain url %s can't access" % self.url
+            logger.info("[done]domain url %s can't access" % self.url)
             return None
 
 
