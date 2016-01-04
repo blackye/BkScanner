@@ -50,7 +50,6 @@ def Work():
                     portcrackplugin.execute_run(portinfo['ip'], portinfo['port'], taskid)
                 time.sleep(0.5)
             except Exception,e:
-                print e
                 continue
         else:
             time.sleep(300) #等待5分钟后结束所有线程
@@ -58,11 +57,8 @@ def Work():
                 portcrackplugin.async_deal_into_db(taskid)
             break
 
-    logger.info('[done] port crack done!')
+    logger.info('[PortCrack exit] portcrack scan over, exit!')
     sys.exit()
 
 if __name__ == '__main__':
-    # if len(sys.argv) == 2:
-    #     taskid = str(sys.argv[1])
-    #     Work(taskid)
     Work()

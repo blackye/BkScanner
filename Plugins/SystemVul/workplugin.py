@@ -24,6 +24,7 @@ from Plugins.pluginManagerBase import DirectoryPluginManager
 from Bin.lib.rediswork.rediswork_class import RedisWork
 from config.redis_config import SYSVUL_KEY
 import time
+from config.logger import logger
 
 class SystemVulPlugin(DirectoryPluginManager):
 
@@ -56,8 +57,10 @@ def Work():
                 sysvulplugin.wait_for_complete(taskid)
             break
 
+    logger.info('[SytemVul exit] systemvul scan over, exit!')
     #扫描完成
     sys.exit()
+
 
 if __name__ == '__main__':
     # if len(sys.argv) == 2:
