@@ -143,6 +143,9 @@ class WebScan(object):
         with open(file_dic, 'r') as file:
             self.file_dic = list(set([each.strip(' \r\n') for each in file.readlines()]))
             if self.webdomain: #域名形式 www.baidu.com.tar.gz
+                domain_list = urlparse(self.url).netloc.split(".")
+                prefix_domain = domain_list[0]
+                self.file_dic.extend(['%s%s' % (prefix_domain, webfile) for webfile in dir_exts])
                 self.file_dic.extend(['%s%s' % (urlparse(self.url).netloc, webfile) for webfile in dir_exts])
         file.close()
 
@@ -426,9 +429,6 @@ class WebScan(object):
         探测完整web文件
         :return:
         '''
-        if len(self.exist_file_cache_list) != 0:
-            print len(self.exist_file_cache_list)
-
         # bug ---2015-12-23 -- 这里需要一个锁机制
         if len(self.exist_file_cache_list) < self.vaild_threshold['file']:  #如果该目录任何文件访问都一样，则停止访问
 

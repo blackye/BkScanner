@@ -57,7 +57,7 @@ def Work():
                 sysvulplugin.wait_for_complete(taskid)
             break
 
-    logger.info('[SytemVul exit] systemvul scan over, exit!')
+    logger.info('[SystemVul exit] systemvul scan over, exit!')
     #扫描完成
     sys.exit()
 
